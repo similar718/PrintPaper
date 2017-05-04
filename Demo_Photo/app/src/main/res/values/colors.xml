@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="activity_background_light_blue">#e8f0f6</color>
+    <color name="activity_button_background_blue">#007bbd</color>
+    <color name="connect_cancel_txt_color_selected">#008DCC</color>
+    <color name="translusent_dialog_background">#33000000</color>
+    <color name="translusent_dialog_text_background">#66000000</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/title"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+    <GridView
+        android:id="@+id/grideview"
+        android:layout_weight="3"
+        android:numColumns="1"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"></GridView>
+        <ImageView
+            android:layout_weight="1.3"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:background="@drawable/shap_rectangle_white"
+            android:src="@drawable/ic_launcher"
+            android:layout_height="200dp"></ImageView>
+
+</LinearLayout>
+<EditText
+    android:id="@+id/img_url"
+    android:background="@null"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="visible"
+    android:hint="请输入上传地址"/>
+    <Button
+        android:id="@+id/chose_upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:visibility="visible"
+        android:text="选择照片并上传" />
+</LinearLayout>
